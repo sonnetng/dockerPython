@@ -1,0 +1,5 @@
+sudo docker build --tag sonnetng/sonnetdockerpython:v1.0.0 .
+sudo docker run -p 80:8000 sonnetng/sonnetdockerpython:v1.0.0
+sudo docker login --username sonnetng --password tsmt971
+sudo docker push sonnetng/sonnetdockerpython:v1.0.0
+
